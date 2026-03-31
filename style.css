@@ -1,37 +1,135 @@
-.body {
-    background-color: #121212;
-    color: #ffffff;
-    font-family: 'Arial', sans-serif;
-    transition: background-color 0.5s, color 0.5s;
+:root {
+  --bg: #f4f7fb;
+  --card: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+  --primary: #2563eb;
+  --primary-soft: #dbeafe;
+  --secondary: #e5e7eb;
+  --track: #e5e7eb;
 }
 
-h1, h2, h3 {
-    color: #ffffff;
+body.dark {
+  --bg: #0b1220;
+  --card: #111827;
+  --text: #f9fafb;
+  --muted: #9ca3af;
+  --primary: #60a5fa;
+  --primary-soft: #1e3a8a;
+  --secondary: #1f2937;
+  --track: #374151;
 }
 
-.button {
-    background-color: #1f1f1f;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    transition: background-color 0.3s, transform 0.2s;
+* {
+  box-sizing: border-box;
 }
 
-.button:hover {
-    background-color: #3a3a3a;
-    transform: scale(1.05);
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
 }
 
-.container {
-    padding: 20px;
-    animation: fadeIn 1s ease-in;
+.app {
+  min-height: 100vh;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: grid;
+  gap: 1rem;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.timer-card {
+  display: grid;
+  gap: 1rem;
+}
+
+.mode-label {
+  font-size: 0.95rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.time-display {
+  font-size: clamp(2.6rem, 8vw, 4rem);
+  letter-spacing: 0.05em;
+}
+
+.progress-track {
+  width: 100%;
+  height: 12px;
+  background: var(--track);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary), #22c55e);
+  transition: width 0.2s ease;
+}
+
+.actions {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+button {
+  border: none;
+  border-radius: 0.65rem;
+  padding: 0.65rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--text);
+}
+
+.primary-btn {
+  background: var(--primary);
+  color: #fff;
+}
+
+.secondary-btn {
+  background: var(--secondary);
+}
+
+.ghost-btn {
+  background: transparent;
+  border: 1px solid var(--secondary);
+}
+
+.stats-card {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.sessions-text {
+  font-size: 1.05rem;
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 0.95rem;
 }

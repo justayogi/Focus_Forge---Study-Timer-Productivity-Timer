@@ -27,9 +27,8 @@ focusforge/
 |-- style.css
 |-- script.js
 |-- screenshots/
-|   |-- light-mode.png
-|   |-- dark-mode.png
-|   |-- timer-running.png
+|   |-- dark-mode-tinted-blue.png
+|   |-- light-mode-white.png
 |-- README.md
 ```
 
@@ -40,11 +39,10 @@ focusforge/
 
 ## Screenshots
 
-Add your app screenshots inside the `screenshots` folder, then keep these image links:
+Project preview screenshots:
 
-![FocusForge Light Mode](screenshots/light-mode.png)
-![FocusForge Dark Mode](screenshots/dark-mode.png)
-![FocusForge Timer Running](screenshots/timer-running.png)
+![FocusForge Dark Mode - Tinted Blue](screenshots/dark-mode-tinted-blue.png)
+![FocusForge Light Mode - White](screenshots/light-mode-white.png)
 
 ## Why This Project Stands Out
 

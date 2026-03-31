@@ -1,0 +1,37 @@
+.body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+.button {
+    background-color: #1f1f1f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #3a3a3a;
+    transform: scale(1.05);
+}
+
+.container {
+    padding: 20px;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

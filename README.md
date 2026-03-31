@@ -15,10 +15,10 @@ Focus Forge is a productivity timer designed to enhance your study and work sess
 ## Screenshots
 
 ### Light Mode
-![Light Mode Screenshot](path/to/light_mode_screenshot.png)
+<img width="645" height="650" alt="image" src="https://github.com/user-attachments/assets/43899ff2-6954-4546-8ffa-9b9d36de809c" />
 
 ### Dark Mode
-![Dark Mode Screenshot](path/to/dark_mode_screenshot.png)
+<img width="803" height="669" alt="image" src="https://github.com/user-attachments/assets/206b5529-723b-44ed-9b51-3b6a0628b3d7" />
 
 ## Installation
 To install Focus Forge, clone the repository and run `index.html` in your browser.

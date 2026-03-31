@@ -1,4 +1,3 @@
-# Focus_Forge---Study-Timer-Productivity-Timer
 # FocusForge - A Simple Productivity Timer for Students
 
 FocusForge is a clean Pomodoro-style web app that helps students stay focused, track completed sessions, and build daily momentum.
@@ -27,6 +26,10 @@ focusforge/
 |-- index.html
 |-- style.css
 |-- script.js
+|-- screenshots/
+|   |-- light-mode.png
+|   |-- dark-mode.png
+|   |-- timer-running.png
 |-- README.md
 ```
 
@@ -34,6 +37,14 @@ focusforge/
 
 1. Open the `focusforge` folder.
 2. Double-click `index.html` or run with a Live Server extension.
+
+## Screenshots
+
+Add your app screenshots inside the `screenshots` folder, then keep these image links:
+
+![FocusForge Light Mode](screenshots/light-mode.png)
+![FocusForge Dark Mode](screenshots/dark-mode.png)
+![FocusForge Timer Running](screenshots/timer-running.png)
 
 ## Why This Project Stands Out
 
